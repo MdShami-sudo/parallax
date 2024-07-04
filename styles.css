@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url('image1.jpg');
+}
+
+.parallax2 {
+    background-image: url('image2.jpg');
+}
+
+.parallax3 {
+    background-image: url('image3.jpg');
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: lightgreen;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.content-section {
+    padding: 50px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
